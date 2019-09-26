@@ -1,17 +1,16 @@
 This is a template project for Android Studio that allows you to create an android webview application in minutes. You can use it to create a simple app for your website or as a starting point for your HTML5 based android app.
 
 ### Getting started
-
-[Download](https://github.com/slymax/webview/archive/master.zip) or clone this repository and import it into Android Studio.
+[Download](https://github.com/dowstoreapp/webview/archive/master.zip) or clone this repository and import it into Android Studio.
 
 ### Using a remote source
 
 If you want to create an app that displays the content of a remote website
 
-1. uncomment lines **25** and **26** in `MainActivity.java` and replace `http://example.com` with your remote source
+1. uncomment lines **25** and **26** in `MainActivity.java` and replace `https://dowstoreapp.blogspot.com/` with your remote source
 
 	```java
-	mWebView.loadUrl("https://example.com");
+	mWebView.loadUrl("https://dowstoreapp.blogspot.com/");
 	mWebView.setWebViewClient(new MyWebViewClient());
 	```
 
